@@ -7,7 +7,11 @@ def extract_wifi_details():
 	witch_craft = witch_craft.encode('utf-8')
 	witch_craft = base64.b64decode(witch_craft)
 	witch_craft = witch_craft.decode('utf-8')
-	print(f'\n\n\n\n\t\t\t{witch_craft}\n\n')
+	print('-----------------------------------------')
+	print('\n WiFi ExtractoR')
+	print('-----------------------------------------')
+	print(f'\n\n\n{witch_craft}\n\n')
+	print('-----------------------------------------')
 
 	exit = False
 	while exit == False:
@@ -26,6 +30,7 @@ def extract_wifi_details():
 		# Exit if '0'
 		elif str(wifi_details) == '0':
 			exit = True
+			print('\nThank you for using...')
 		
 		else:
 			print('Command invalid')
