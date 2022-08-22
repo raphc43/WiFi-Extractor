@@ -1,5 +1,5 @@
 # WiFi-Extractor
-A terminal based program to display list and details of WiFi
+A terminal based program to extract and perform analysis on WiFi.
 
 ![Wifi extractor - 1](https://user-images.githubusercontent.com/76881227/185760800-81202310-db1c-4462-b82f-757b72dc1af8.JPG)
 
